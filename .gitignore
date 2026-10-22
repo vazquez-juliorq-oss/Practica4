@@ -1,0 +1,47 @@
+# ==========================================
+# CREDENTENTIALS & ENVS (DevSecOps - CRÍTICO)
+# ==========================================
+.env
+.env.*
+*.pem
+*.key
+aws_credentials
+.aws/
+
+# ==========================================
+# PYTHON & VIRTUAL ENVS
+# ==========================================
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# ARCHIVOS DE DATOS Y TEMPORALES
+# ==========================================
+*.csv
+*.json
+*.parquet
+*.log
+*.sqlite
+*.db
+
+# ==========================================
+# EXPORTACIONES GRÁFICAS DE ANÁLISIS
+# ==========================================
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# ==========================================
+# IDEs & SISTEMA OPERATIVO
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
